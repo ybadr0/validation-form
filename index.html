@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <h1 id="header"> Login Form</h1>
+    
+       <span id="error"></span>
+       
+       
+        <form onsubmit="formvalidate()" novalidate> 
+            <div class="field email">
+                <div class="input-area">
+                  <input type="email" placeholder="Email Address" id="email">
+                </div>
+              <div class="field password">
+                <div class="input-area">
+                  <input type="password" placeholder="Password" id="password">
+                </div>
+              <div class="pass-txt"><a href="#">Forgot password?</a></div>
+              <input type="submit" class="submit" value="Login" id="submit">
+            </form>
+            <div class="sign-txt">Not a member? <a href="index2.html">Signup now</a></div>
+        </form>
+        </div>
+    
+    
+        <script src="main.js"></script>
+</body>
+</html>

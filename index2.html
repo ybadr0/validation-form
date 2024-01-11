@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form vlidation</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+<div class="container">
+<form  id="form" class="form" onsubmit="validate()">
+<h2>register with us</h2>
+<span id="error"></span>
+
+<div class="form-control">
+    <label for="username">Username</label>
+    <input type="text" id="username" placeholder="Enter username">
+    <span id="nameError" class="error"></span>
+
+</div>
+
+<div class="form-control">
+    <label for="email">email</label>
+    <input type="text" id="email" placeholder="Enter email">
+    <span id="emailError" class="error"></span>
+
+</div>
+
+<div class="form-control">
+    <label for="password">password</label>
+    <input type="text" id="password" placeholder="Enter password">
+    <span id="passworderror" class="error"></span>
+
+</div>
+
+<div class="form-control">
+    <label for="confim password">confirm password</label>
+    <input type="text" id="confirm_password" placeholder="Enter confim password">
+    <span id="confirm_passworderror" class="error"></span>
+
+</div>
+ <div>
+    <button>submit</button>
+ </div>
+ 
+ 
+    
+</form>
+
+</div>
+
+    <script src="main2.js"></script>
+</body>
+</html>
